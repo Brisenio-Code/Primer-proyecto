@@ -29,3 +29,13 @@ git add nombre del archivo
 
 //para modificar el correo y el usuario que realiza las modificaciones
 git config --global --edi
+
+git commit -m // para no ingresar al editor de texto y escribir el mensaje lo hacemos directamente en la terminal
+
+
+git commit -m "first commit"
+
+//para subir nuestro Repositorio a github
+git remote add origin https://github.com/Brisenio-Code/Primer-proyecto.git
+
+git push -u origin master
