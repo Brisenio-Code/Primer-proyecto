@@ -1,0 +1,29 @@
+COMANDOS DE GIT
+
+git init //inicializa el proyecto en git
+
+git status    //nos permite ver que archivos tenermos y en cuales estamos trabajando
+
+git add archivo // nos sube el archivo que queremos sacar el respaldo
+
+git commit // nuestro primer snatshop o punto de partida
+
+//para configurar el usuario y el email
+
+git config --global user.email "briss.taramuel@gmail.com"
+git config --global user.name "Brisenio"
+
+git log // me devuelve un resume de nuestro proyecto
+
+git restore nombreArchivo //nos devuelve al estado anterior del ultimo commit
+
+git diff nombreArchivo // nos devuelve el codigo de lo que se ha aumentado al archivo
+
+////para vover a guardar los cambios en un archivo tenemos que volver a subir el archivos
+git add nombre del archivo
+
+
+////////////////////////////////////////////
+//En caso de que no desee algún archivo que se guarde en nuestro Repositorio GIT lo escribimos en nuestro archivo
+// .gitignore para las carpetas solo basta con el nombre de la carpeta, para archivos debemos escribir con todo
+// la extensión. Ejemplo prueba.txt 
