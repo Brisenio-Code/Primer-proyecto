@@ -22,8 +22,10 @@ git diff nombreArchivo // nos devuelve el codigo de lo que se ha aumentado al ar
 ////para vover a guardar los cambios en un archivo tenemos que volver a subir el archivos
 git add nombre del archivo
 
-
 ////////////////////////////////////////////
 //En caso de que no desee algún archivo que se guarde en nuestro Repositorio GIT lo escribimos en nuestro archivo
 // .gitignore para las carpetas solo basta con el nombre de la carpeta, para archivos debemos escribir con todo
-// la extensión. Ejemplo prueba.txt 
+// la extensión. Ejemplo prueba.txt
+
+//para modificar el correo y el usuario que realiza las modificaciones
+git config --global --edi
